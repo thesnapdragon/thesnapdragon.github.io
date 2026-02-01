@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
+  "packages": [
+    "bundler@latest",
+    "ruby@3.1",
+    "libffi@latest"
+  ],
+  "shell": {
+    "scripts": {
+      "serve": "bundle exec $GEM_HOME/bin/jekyll serve --livereload --drafts"
+    }
+  }
+}

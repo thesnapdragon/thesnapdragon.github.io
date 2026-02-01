@@ -1,0 +1,176 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "bundler@latest": {
+      "last_modified": "2026-01-23T17:20:52Z",
+      "resolved": "github:NixOS/nixpkgs/a1bab9e494f5f4939442a57a58d0449a109593fe#bundler",
+      "source": "devbox-search",
+      "version": "2.7.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0x0ckakw4ar9ib83h0bw8hcmhs5zi04w-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0x0ckakw4ar9ib83h0bw8hcmhs5zi04w-bundler-2.7.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9s6mf2s63ny4pid4n5hdrrw3b9s1c79l-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9s6mf2s63ny4pid4n5hdrrw3b9s1c79l-bundler-2.7.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g8znrzd54h1v9qmzvf8a9fcpcp1v4xij-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g8znrzd54h1v9qmzvf8a9fcpcp1v4xij-bundler-2.7.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/idirrw254q6758fivj9myvad0kqpbfzi-bundler-2.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/idirrw254q6758fivj9myvad0kqpbfzi-bundler-2.7.2"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-01-30T02:32:49Z",
+      "resolved": "github:NixOS/nixpkgs/6308c3b21396534d8aaeac46179c14c439a89b8a?lastModified=1769740369&narHash=sha256-xKPyJoMoXfXpDM5DFDZDsi9PHArf2k5BJjvReYXoFpM%3D"
+    },
+    "libffi@latest": {
+      "last_modified": "2026-01-26T09:54:05Z",
+      "resolved": "github:NixOS/nixpkgs/5b265bda51b42a2a85af0a543c3e57b778b01b7d#libffi",
+      "source": "devbox-search",
+      "version": "3.5.2",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q0fmrj2q9z1wn2jy9ybq0h3ggd8gl79y-libffi-3.5.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/v393k697c1vkhs0523bmbk5ds8zrdix8-libffi-3.5.2-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/f1cl1dgzvygr73lmfbljnryvdva87d2j-libffi-3.5.2-dev"
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/sh36n0lgm06syf5w4b5lyxy5w08p298x-libffi-3.5.2-info"
+            }
+          ],
+          "store_path": "/nix/store/q0fmrj2q9z1wn2jy9ybq0h3ggd8gl79y-libffi-3.5.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s644cyhhkg9zjgk924ap5wwr96jn71d3-libffi-3.5.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/j0cqim12mp2w77mq93g8ab92s3riw4x4-libffi-3.5.2-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/kp4j3zz6n72s20v636c3w85agj7c24s6-libffi-3.5.2-dev"
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/07kap4fjkra9ywkingv8k2d6bqivm9b6-libffi-3.5.2-info"
+            }
+          ],
+          "store_path": "/nix/store/s644cyhhkg9zjgk924ap5wwr96jn71d3-libffi-3.5.2"
+        }
+      }
+    },
+    "ruby@3.1": {
+      "last_modified": "2025-10-07T08:41:47Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/bce5fe2bb998488d8e7e7856315f90496723793c#ruby_3_1",
+      "source": "devbox-search",
+      "version": "3.1.7",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/psh3gx37yq00ljcmjlbkvb0d0prsslng-ruby-3.1.7",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/xllx5598jsqq6rkkx59gaf177rdg6h9r-ruby-3.1.7-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/psh3gx37yq00ljcmjlbkvb0d0prsslng-ruby-3.1.7"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i0673rm1h67fx1mlzsv50r5jnk5n79kh-ruby-3.1.7",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/8jz687kyqc5w66wl6mciz347a3vhqmkn-ruby-3.1.7-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/i0673rm1h67fx1mlzsv50r5jnk5n79kh-ruby-3.1.7"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2hj73dvk6drqnwz6zwsivqjvgv5haygk-ruby-3.1.7",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/871307cf9wfdl9mv7q98qcd27mbxsvdw-ruby-3.1.7-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/2hj73dvk6drqnwz6zwsivqjvgv5haygk-ruby-3.1.7"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h2hjynkmjxgc7q4ga2c71q3ply464mil-ruby-3.1.7",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/zli38lh4ay85g8fkibf9kkxswfb7r1rz-ruby-3.1.7-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/h2hjynkmjxgc7q4ga2c71q3ply464mil-ruby-3.1.7"
+        }
+      }
+    }
+  }
+}
