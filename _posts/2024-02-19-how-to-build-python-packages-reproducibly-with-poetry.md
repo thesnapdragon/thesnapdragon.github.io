@@ -22,7 +22,7 @@ Ultimately, these issues make the built wheel distribution unreliable and practi
 
 ## Locked versions in distributions
 
-The Poetry team is [aware of the issue](https://gith.ub.com/python-poetry/poetry/issues/2778), but making this feature available in a maintainable way is not easy. Until this long-awaited feature is ready, I created a plugin to solve the problem. The plugin extends the building process by reading up the lock file and putting the locked versions into the distribution's metadata:
+The Poetry team is [aware of the issue](https://github.com/python-poetry/poetry/issues/2778), but making this feature available in a maintainable way is not easy. Until this long-awaited feature is ready, I created a plugin to solve the problem. The plugin extends the building process by reading up the lock file and putting the locked versions into the distribution's metadata:
 
 ![Correct dependencies](/images/02_correct_dependencies.png)
 
@@ -40,5 +40,4 @@ poetry lockedbuild
 
 For further details, check out the project:
 
-<script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
-<div class="repo-card" data-repo="thesnapdragon/poetry-plugin-lockedbuild"></div>
+[![thesnapdragon/poetry-plugin-lockedbuild - GitHub](https://gh-card.dev/repos/thesnapdragon/poetry-plugin-lockedbuild.svg)](https://github.com/thesnapdragon/poetry-plugin-lockedbuild)
