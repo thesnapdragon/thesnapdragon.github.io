@@ -7,7 +7,7 @@ categories: ["Software Development", "DevOps", "Python", "Poetry"]
 
 For handling dependencies and creating Python packages, [Poetry](https://python-poetry.org/) is a great choice. Poetry's build command can generate _source_ and _wheel_ distributions. The [wheel](https://packaging.python.org/en/latest/glossary/#term-Wheel) is a pre-built distribution format containing files and metadata, which only need to be moved to the target system to be installed. On the other hand, source (or _sdist_) distribution still requires a build step before it is usable. But can these formats be directly utilized in production?
 
-![header](/images/header2.png)
+![header](/images/02_header.png)
 
 ## Poetry's design issue
 

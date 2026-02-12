@@ -7,7 +7,7 @@ categories: ["Software Development", "DevOps"]
 
 When working with dependencies one commonly asked question is how to specify the dependencies in the package files (`pyproject.toml`, `Gemfile`, `package.json`, etc.), and why one would need lock files (`poetry.lock`, `Gemfile.lock`, `package-lock.json`). In this article, we will explore how dependency management can be easy and painless. Let's dive in!
 
-![header](/images/header1.jpg)
+![header](/images/01_header.jpg)
 
 ## Version constraints
 
