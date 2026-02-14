@@ -1145,6 +1145,10 @@ Modules - reusable parts of our design
   }
 }
 
+/*********************/
+/* TABLE OF CONTENTS */
+/*********************/
+
 .toc {
   border-style: solid;
   border-width: 1px;
@@ -1163,6 +1167,14 @@ Modules - reusable parts of our design
         background-color: rgb(241, 245, 249);
     }
   }
+}
+
+/*************/
+/* ASCIINEMA */
+/*************/
+
+.ap-player {
+  height: 401.325px !important;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

@@ -1,0 +1,9 @@
+<script src="/assets/asciinema-player.min.js"></script>
+<script>
+    let containerElement = document.getElementById("asciinema-container");
+    AsciinemaPlayer.create(containerElement.dataset.src, containerElement, {
+        speed: 2,
+        idleTimeLimit: 1,
+        rows: 24,
+    });
+</script>

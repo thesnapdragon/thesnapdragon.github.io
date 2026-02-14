@@ -29,6 +29,8 @@ This is where Devbox comes into the picture.
 
 ## Enter Devbox: Nix for Humans
 
+<div id="asciinema-container" data-src="/images/04_devbox.cast"></div>
+
 [Devbox](https://www.jetify.com/docs/devbox), created by Jetify, is a command-line tool that lets you create isolated shells based on Nix without needing to become an expert in the language. It acts as a wrapper around Nix's powerful capabilities. Instead of writing complex Nix expressions, you can define your environment in a simple *devbox.json* file.
 
 *Why move to Devbox?*
