@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Post-Container Era - Isolated Shells with Devbox
-date: 2026-02-14T00:00:00Z
+date: 2026-02-16T00:00:00Z
 categories: ["Software Development", "DevOps"]
 ---
 
